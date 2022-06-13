@@ -3,7 +3,7 @@ import fs from 'fs';
 
 const targetFilename =
 	'//home/user/said/general-backup/env-back' +
-	qdat.timeStampifyFileName('.env');
+	qdat.timeStampifyFileName();
 
 fs.copyFile('.env', targetFilename, (err) => {
 	if (err) throw err;
