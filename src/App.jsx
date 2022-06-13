@@ -10,7 +10,7 @@ function App() {
 			<h1>Personal Site</h1>
 			<hr />
 			<NavLink to="/welcome">Welcome</NavLink> |{' '}
-			<NavLink to="/books">Books</NavLink> |{' '}
+			<NavLink to="/books">Book</NavLink> |{' '}
 			<NavLink to="/about">About</NavLink>
 			<hr />
 			<Routes>
